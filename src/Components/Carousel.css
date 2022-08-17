@@ -1,0 +1,11 @@
+@media (max-width:1140px){
+    .sliding_carousel{
+        display: none;
+    }
+}
+
+@media (min-width:1141px){
+    .carousel_visible{
+        display: none;
+    }
+}

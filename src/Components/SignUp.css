@@ -1,0 +1,89 @@
+.signUp {
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 27px);
+  }
+  
+  .signUp__logo {
+    margin-top: 25px;
+    margin-bottom: 28px;
+    object-fit: contain;
+    width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .signUp__container {
+    width: 332px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .signUp__container > h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+
+  }
+  
+  .signUp__container > form > h5 {
+    margin-bottom: 5px;
+  }
+  
+  .signUp__container > form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+  }
+  
+  .signUp__container > p {
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  
+  .signUp__signInButton {
+      padding: 8px 16px;
+      color: #db1222;
+      background-color: #ffffff;
+      border-color: #db1222;
+      border: 1px solid;
+      font-size: 14px;
+      transition: 0.2s ease-in-out;
+  }
+  
+  .signUp__registerButton {
+      padding: 8px 16px;
+      color: #ffffff;
+      background-color: #ff0000;
+      border-color: #db1222;
+      border: 1px solid;
+      font-size: 14px;
+      transition: 0.2s ease-in-out;
+  }
+  .signUp__registerButton:hover{
+      background-color: white;
+      color: red;
+  }
+  .signUp__signInButton:hover{
+      background-color: red;
+      color: white;
+  }
+  
+  .footer {
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(115, 111, 111);
+    margin-top: 160px;
+    /* margin-top: 10px; */
+  }
+  

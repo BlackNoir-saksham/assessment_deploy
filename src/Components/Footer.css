@@ -1,0 +1,151 @@
+.footer {
+  font-size: 11px;
+  /* position: relative; */
+  max-width: 1519px;
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  background-color: #edf0f5;
+  border-top: 1px solid #d7d7d7;
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin: 0 10px; */
+}
+
+.footer_1,
+.footer_2 {
+  text-align: left;
+  /* margin-left: 180px; */
+  max-width: 1173px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+br {
+  display: block;
+  content: "";
+  margin: 8px 0;
+}
+
+.footer_1 a {
+  color: rgb(71, 69, 69);
+  cursor: pointer;
+}
+.footer_1 a:hover {
+  text-decoration: none;
+}
+.footer_2 a {
+  text-decoration: none;
+  color: rgb(43, 41, 41);
+  transition: 0.2s ease-in-out;
+}
+.footer_2 a:hover {
+  color: red;
+}
+
+.footer_2 {
+  margin-top: 50px;
+  line-height: 10px;
+  margin-bottom: 50px;
+}
+
+.footer_2 p {
+  color: rgb(119, 117, 117);
+  padding-bottom: 15px;
+}
+
+.footer_3 {
+  display: flex;
+  max-width: 1173px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  justify-content: space-between;
+  /* margin: 40px 0px 0px 0px; */
+  border-top: 1px solid #d7d7d7;
+  /* margin-top: 20px; */
+}
+.column_1,
+.column_2,
+.column_3,
+.column_4 {
+  text-align: left;
+  padding-top: 40px;
+}
+
+.column_1 .row_1 {
+  margin-bottom: 25px;
+}
+
+.footer_3 h6 {
+  font-size: 13px;
+  font-weight: 600;
+}
+.footer_3 p {
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.footer_3 p:hover {
+  color: red;
+}
+.i_icon {
+  font-size: 13px;
+  display: inline-block;
+}
+.footer_4 {
+  border-top: 1px solid #d7d7d7;
+  border-bottom: 1px solid #d7d7d7;
+  max-width: 1173px;
+  margin: 0 auto;
+}
+
+.column_4 p {
+  vertical-align: middle;
+}
+.Row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 760px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.Row_1,
+.Row_2,
+.Row_3,
+.Row_4,
+.Row_5,
+.Row_6 {
+  border-right: 1px solid rgb(174, 173, 173);
+  padding-right: 20px;
+}
+.footer_4 p:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.footer_5 {
+  margin-top: 55px;
+}
+
+.footer_5 h5 {
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 7px;
+}
+
+.lastLine {
+  padding-top: 28px;
+  cursor: pointer;
+}
+.lastLine:hover {
+  color: red;
+}
+
+.footer_5 p{
+    font-size: 12px;
+}
+.footer_5 a{
+    color: rgb(77, 74, 74);
+}
+.footer_5 a:hover{
+    color: red;
+    text-decoration: none;
+}

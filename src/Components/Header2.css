@@ -1,0 +1,115 @@
+.header2__left .header2_img_1 {
+  width: 230px;
+  /* margin-left: 90px; */
+}
+
+.header2 {
+  background-color: rgb(255, 255, 255);
+  margin-top: 34px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  max-width: 1518px;
+}
+
+.header2__left {
+  margin-left: 80px;
+}
+
+.header2__right {
+  display: flex;
+  align-items: center;
+  margin-right: 80px;
+}
+
+.login button {
+  padding: 8px 16px;
+  color: #db1222;
+  background-color: #ffffff;
+  border-color: #db1222;
+  border: 1px solid;
+  font-size: 14px;
+  transition: 0.3s ease-in-out;
+}
+.login button:hover {
+  border-color: #0c0c0c;
+  color: #000000;
+}
+.openAccountTop button {
+  padding: 9px 20px;
+  color: #ffffff;
+  background-color: #db1222;
+  border-color: #db1222;
+  border: 1px solid;
+  font-size: 14px;
+}
+.openAccountTop {
+  margin-left: 10px;
+}
+.options {
+  color: #2f2e2e;
+  margin: 0 18px 0 18px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+.options:hover {
+  color: red;
+}
+.icon:hover {
+  color: red;
+}
+.icon {
+  margin: 0 20px 0 20px;
+  font-size: 20px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.header2_img_2 {
+  width: 90px;
+  float: left;
+}
+
+@media (max-width: 1140px) {
+  .options {
+    display: none;
+  }
+  .header2 {
+    margin-top: 0;
+  }
+}
+
+.menu-btn {
+  color: black;
+  font-size: 73px;
+  padding-left: 20px;
+}
+
+@media (min-width: 1140px) {
+  .menu-btn {
+    display: none;
+  }
+}
+
+@media (min-width: 761px) {
+  .header2_img_2 {
+    display: none;
+  }
+}
+@media (max-width: 761px) {
+  .header2_img_1 {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .login {
+    display: none;
+  }
+}
