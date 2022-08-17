@@ -61,7 +61,7 @@ function MiddleElements() {
           <div className="middle2_para">
             <p>
               Invest globally in stocks, options, futures, currencies,
-              <br className="head_break" /> bonds and funds from a single
+              <br className="head_break" /> bonds & funds from a single
               unified platform. Fund
               <br className="head_break" /> your account in multiple currencies
               and trade assets

@@ -131,7 +131,8 @@
     text-align: left;
   }
   .middle2_img {
-    width: 100%;
+    padding-top: 35px;
+    width: 90%;
     height: 80%;
   }
   .middle2_left {
@@ -270,7 +271,7 @@
   }
 
   .middle4_img {
-    width: 460px;
+    width: 440px;
     
   }
   .middle4_left{
@@ -291,6 +292,7 @@
   .left_grid_3 {
     text-align: center;
     padding-bottom: 25px;
+    
   }
   .right_grid_3 {
     align-items: center;
@@ -338,6 +340,6 @@
     margin: 0;
   }
   .left_grid_3 img {
-    width: 480px;
+    width: 460px;
   }
 }
